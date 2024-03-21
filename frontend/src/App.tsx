@@ -1,7 +1,11 @@
-import Message from "./Message";
+import ApiComponent from "./components/TestApiComponent";
 
 function App(){
-  return <div><Message/></div>
+  return (
+    <div>
+      <ApiComponent></ApiComponent>
+    </div>
+  )
 }
 
 export default App;

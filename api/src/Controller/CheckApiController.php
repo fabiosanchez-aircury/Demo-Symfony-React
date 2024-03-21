@@ -17,7 +17,7 @@ class CheckApiController extends AbstractFOSRestController
    public function getApiCheck(): JsonResponse
    {
        return new JsonResponse([
-           'status' => "API is ok",
+           'status' => "Demo API response",
            'code' => '200'
        ]);
    }
